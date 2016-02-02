@@ -1,3 +1,4 @@
+
 class PlaneCoord
     def x
         @x
@@ -48,7 +49,8 @@ class Robot
 
         x, y= pst[0].to_i, pst[1].to_i
         f = pst[2]
-
+        
+        # dimensions 5 units x 5 units
         if x < 0 or x > 4 or y < 0 or y > 4
             @ready = false
         else
